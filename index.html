@@ -7,7 +7,64 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <h1></h1>
+    <div id="main-app">
+
+      <main>
+
+        <section id="search-bar">
+          <img src="images/walmart-logo.svg" alt="">
+
+          <section role="search">
+            <form action="#">
+
+                <label for="searchInput">Search on Walmart here</label>
+                <div class="search-input">
+                  <input type="text" name="" id="searchInput" />
+                  <button type="submit" title="Search this website now" id="searchBtn">Search</button>
+                </div>
+            </form>
+          </section>
+        </section>
+        <!-- /#search-bar -->
+
+
+        <section id="results">
+          <h2>Resutls for <strong>Term</strong></h2>
+
+          <ul>
+            <li class="products">
+              <img src="http://placehold.it/200x200/" alt="">
+              <div class="desc">
+                <h3>Title Product</h3>
+                <p>Bacon ipsum dolor amet biltong ham hock turkey jowl capicola jerky. Spare ribs sausage chuck biltong frankfurter</p>
+                <span class="price">price: </span>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        <!-- /#results -->
+
+      </main>
+
+      <section id="list">
+        <ul id="list-cart">
+          <li>
+            <img src="http://placehold.it/50x50/" alt="">
+            <div class="detail-cart">
+              <span>Produc Title</span>
+              <span class="price">$100.00</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- /#list -->
+
+    </div>
+    <!-- /#main-app -->
   </body>
-  <script src="js/app.js" charset="utf-8"></script>
+  <script src="js/MVCAssignment.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+  <!-- <script src="js/app.js" charset="utf-8"></script> -->
 </html>
